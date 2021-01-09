@@ -8,6 +8,8 @@ import ButtonsAndIcons from './pages/buttonsAndIcons';
 import Color from './pages/color';
 import Home from './pages/home';
 import Typography from './pages/typography';
+import ActionButtons from './pages/actionButtons'
+import Navbar from './pages/navbar'
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
         </Route>
         <Route path="/buttonsAndIcons" exact>
           <ButtonsAndIcons />
+        </Route>
+        <Route path="/actionButtons" exact>
+          <ActionButtons/>
+        </Route>
+        <Route path="/navbar" exact>
+          <Navbar/>
         </Route>
       </Switch>
     </Router>
